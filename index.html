@@ -203,6 +203,7 @@
     }
     </style>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+    
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -210,31 +211,29 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-
   <body>
-
+    <div class="container">
       <div class="paper-title">
         <h1>Robomaster labeling tool</h1>
       </div>
-
       <div id="authors">
         <div class="author-row">
-          <div class="col-4 text-center"><p>WASD移动</p></div>
+        <div class="col-4 text-center"><p>WASD移动</p></div>
         </div>
         <div class="author-row">
-          <div class="col-4 text-center"><p>P标注截图</p></div>
+        <div class="col-4 text-center"><p>P标注截图</p></div>
         </div>
         <div class="author-row">
-          <div class="col-4 text-center"><p>R能量机关旋转</p></div>
+        <div class="col-4 text-center"><p>R能量机关旋转</p></div>
         </div>
         <div class="author-row">
-          <div class="col-4 text-center"><p>T能量机关随机亮灯</p></div>
+        <div class="col-4 text-center"><p>T能量机关随机亮灯</p></div>
         </div>
         
       </div>
-
+    </div>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080></canvas>
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -321,8 +320,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
