@@ -1,1 +1,1 @@
-# [Play now!](https://Spphire.github.io/unity-page)
+# [Play now!](https://spphire.github.io/RM-labeling-tool/)
