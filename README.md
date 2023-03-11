@@ -18,6 +18,8 @@
 
 #### For Armor Plate
 
+·Press the **F** keys to create a new armor plate on your current position
+
 ·**Move the center of the screen to the armor plate**, and that the armor can be controled(with green outline)
  
  Press the **2,3,4,5,6** keys to set the tag of the armor controled(with green outline)
