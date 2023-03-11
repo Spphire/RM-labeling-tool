@@ -36,7 +36,17 @@ You will get 3 files, one is .jpg which is raw picture, one is .txt which includ
 
 **explanation of label information:**
 
-For Energy Mechanism, 0: blue R, 1: blue Unactivated, 2: blue Activated, 3: red R, 4: red Unactivated, 5: red Activated .
+#### For Energy Mechanism：
+
+0: blue R, 1: blue Unactivated, 2: blue Activated, 3: red R, 4: red Unactivated, 5: red Activated .
+
+#### For Armor Plate：
+
+final label = color*9+tag
+
+with color, 0: blue, 1: red, 2: grey, 3: purple
+
+with tag, 0: sentry, 1: hero, 2: engineer, 3: infantry3, 4: infantry4, 5: infantry5, 6: outpost, 7: base(small), 8: base(big)
 
 ## labeling performance
 
