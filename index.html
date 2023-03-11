@@ -213,32 +213,12 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <div class="container">
-        <div class="paper-title">
-          <h1>Robomaster labeling tool</h1>
-        </div>
-        <div style="clear: both">
-          <div id="method">
-            <div class="col-4 text-center">
-            <span class="material-icons"> WASD移动 </span>
-            </div>
-            <div class="col-4 text-center">
-            <span class="material-icons"> P标注截图 </span>
-            </div>
-            <div class="col-4 text-center">
-            <span class="material-icons"> R能量机关旋转 </span>
-            </div>
-            <div class="col-4 text-center">
-            <span class="material-icons"> T能量机关随机亮灯 </span>
-          </div>
-          </div>
-        </div>
+
+      <div class="col-1 text-center">
+      <a class="Instructions" href="https://github.com/Spphire/RM-labeling-tool"> Instructions/操作指南 </a>
+      <p>star me plz!!</p>
       </div>
-      <div>
-        <p>建议关闭浏览器下载内容前需确认，每次截图将会在默认下载路径下得到一张原图一张画框图和一个标签txt文件</p>
-        <p>暂时只支持能量机关标注红蓝色、是否激活和中心R 2x3 六种label，0蓝色R，1蓝色待激活，2蓝色激活，3红色R，4红色待激活，5红色激活</p>
-        <p>蓝色前哨站附近有一个可控制的装甲板，当屏幕中心指向该装甲板，其变绿即为进入可控模式。2/3/4/5/6键切换号码贴纸，c键切换灯条颜色，长按右键可使其跟随移动</p>
-      </div>
+
       <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
