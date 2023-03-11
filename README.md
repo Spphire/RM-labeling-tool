@@ -6,17 +6,27 @@
 
 ### Moving:
 
-Press the WASD keys and cooperate with the mouse
+·Press the WASD keys and cooperate with the mouse
 
 ### Controling:
 
-Press the R keys to turn on or off the rotation of Energy Mechanism
+#### For Energy Mechanism
 
-Press the T keys to randomly set the state of the fan blades of Energy Mechanism (OFF,UNACTIVATED,ACTIVATED)
+·Press the R keys to turn on or off the rotation of Energy Mechanism
+
+·Press the T keys to randomly set the state of the fan blades of Energy Mechanism (OFF,UNACTIVATED,ACTIVATED)
+
+#### For Armor Plate
+
+·Move the center of the screen to the armor plate, and that the armor can be controled(with green outline)
+ 
+ Press the 2,3,4,5,6 keys to set the tag of the armor controled(with green outline)
+
+ Press the C keys to switch the light color of the armor controled(with green outline) red or blue
 
 ### Photoing:
 
-Press the P keys to get a screenshot and it will be labeled automatically
+·Press the P keys to get a screenshot and it will be labeled automatically
 
 (**Tips:** Turn off "Asking before downloading" in your browser settings and set the default download path *so that* You don't need to manually confirm the download every time you photo)
 
