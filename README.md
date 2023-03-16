@@ -1,8 +1,10 @@
 # [Play now!](https://spphire.github.io/RM-labeling-tool/)
 
-# click "Play now!" link above, you can quickly get vast datasets of Energy Mechanism
+# click "Play now!" link above, you can quickly get vast datasets of Energy Mechanism and Armor
 
 ## Instrcutions
+
+You can refer to [convert tool](https://github.com/HDUExia/RoboMaster-Season-2023-Rune-s-labels-Transforming-Tool) if you want to convert dataset from my project to Yolo-face format.
 
 ### Moving:
 
