@@ -8,11 +8,11 @@
 
 输出已为yoloface格式
 
-P键获取截图，**强烈建议** 在浏览器设置中关闭（下载前询问），并设置好合理的下载路径
+P键获取截图，<u>**强烈建议**</u> 在浏览器设置中关闭（下载前询问），并设置好合理的下载路径
 
 你会获得四个文件，一张原图，一张画框的图，两个标注文件（其中一个是txt，一个是json，两种格式，json可读性高一些，根据需要选一种用）
 
-**按住左键**才能用WASD和鼠标控制移动
+<u> **按住左键** </u>才能用WASD和鼠标控制移动
 
 左键画面即可隐藏鼠标光标，esc或空格退出。
 
@@ -30,9 +30,13 @@ F可以在当前位置生成一个装甲板
 
 ## Instrcutions
 
-You can refer to [convert tool](https://github.com/HDUExia/RoboMaster-Season-2023-Rune-s-labels-Transforming-Tool) if you want to convert dataset from my project to Yolo-face format.
+~~You can refer to [convert tool](https://github.com/HDUExia/RoboMaster-Season-2023-Rune-s-labels-Transforming-Tool) if you want to convert dataset from my project to Yolo-face format.~~
+
+already yoloface format
 
 ### Moving:
+
+·Hold the left button of mouse and
 
 ·Press the WASD keys and cooperate with the mouse
 
