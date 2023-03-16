@@ -34,7 +34,7 @@
 
 (**Tips:** Turn off "Asking before downloading" in your browser settings and set the default download path *so that* You don't need to manually confirm the download every time you photo)
 
-You will get 3 files, one is .jpg which is raw picture, one is .txt which includes label information, one is .png which visualizes the label information to check if there's something wrong.
+You will get 3 files, one is .jpg which is raw picture, one is .json which includes label information, one is .png which visualizes the label information to check if there's something wrong.
 
 **explanation of label information:**
 
