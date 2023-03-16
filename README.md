@@ -76,6 +76,7 @@ with tag, 0: sentry, 1: hero, 2: engineer, 3: infantry3, 4: infantry4, 5: infant
 
 ## labeling performance
 
-![draw2023_3_8_17_40_33_832](https://user-images.githubusercontent.com/56157591/223679161-afcae665-30b0-40bf-9553-21adc28698b2.png)
+![draw2023_3_16_17_0_42_393](https://user-images.githubusercontent.com/56157591/225566625-a8e851b3-d4f5-468e-87c8-cac13f64ec9b.png)
 
-可控装甲板
+
+![draw2023_3_8_17_40_33_832](https://user-images.githubusercontent.com/56157591/223679161-afcae665-30b0-40bf-9553-21adc28698b2.png)
