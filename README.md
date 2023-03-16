@@ -4,13 +4,15 @@
 
 ## 操作指南
 
-如果你想把获得的标注文件转换为yolo-face的格式，你可以参考[转换工具](https://github.com/HDUExia/RoboMaster-Season-2023-Rune-s-labels-Transforming-Tool)
+~~如果你想把获得的标注文件转换为yolo-face的格式，你可以参考[转换工具](https://github.com/HDUExia/RoboMaster-Season-2023-Rune-s-labels-Transforming-Tool)~~
+
+输出已为yoloface格式
 
 P键获取截图，**强烈建议** 在浏览器设置中关闭（下载前询问），并设置好合理的下载路径
 
 你会获得四个文件，一张原图，一张画框的图，两个标注文件（其中一个是txt，一个是json，两种格式，json可读性高一些，根据需要选一种用）
 
-按住左键才能用WASD和鼠标控制移动
+**按住左键**才能用WASD和鼠标控制移动
 
 左键画面即可隐藏鼠标光标，esc或空格退出。
 
