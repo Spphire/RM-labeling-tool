@@ -28,6 +28,20 @@ F可以在当前位置生成一个装甲板
 
 高亮状态下， C键切换红蓝灯
 
+## 标签编号解释
+
+对于能量机关来说，最终label=color*3+tag
+
+color 0: 蓝， 1 红
+
+tag 0：R，1：未激活，2：已激活
+
+对于装甲板来说，最终label=color*9+tag
+
+color 0: 蓝， 1：红， 2：灰， 3：紫
+
+tag 0：哨兵，1：英雄，2：工程，3：步兵3，4：步兵4，5：步兵5，6：前哨站，7、8：基地装甲板
+
 ## Instrcutions
 
 ~~You can refer to [convert tool](https://github.com/HDUExia/RoboMaster-Season-2023-Rune-s-labels-Transforming-Tool) if you want to convert dataset from my project to Yolo-face format.~~
