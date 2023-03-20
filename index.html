@@ -132,7 +132,7 @@
       document.body.appendChild(script);
     </script>
 
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>-->
     <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
     <script>
     var gitalk = new Gitalk({
@@ -145,20 +145,13 @@
         admin: ['Spphire'],
         //id: decodeURI(window.location.pathname),      // Ensure uniqueness and length less than 50
         distractionFreeMode: false,  // Facebook-like distraction free mode
-        proxy: 'https://github.com/login/oauth/access_token',
+        //proxy: 'https://github.com/login/oauth/access_token',
       createIssueManually: true,
       })
 
       gitalk.render('gitalk-container')
     </script>
-    
-    <script src="https://utteranc.es/client.js"
-        repo="[Spphire/RM-labeling-tool]"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
     <script>
   document.addEventListener('DOMContentLoaded', () => {
     const comment = document.querySelector('#comment')
