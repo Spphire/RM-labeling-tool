@@ -31,23 +31,7 @@
         <div id="unity-build-title">RMwebgl</div>
       </div>
       
-      <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const comment = document.querySelector('#comment')
-    if (comment) {
-      const utterances = document.createElement('script')
-      utterances.setAttribute('src', 'https://utteranc.es/client.js')
-      utterances.setAttribute('repo', Spphire/RM-labeling-tool)
-      utterances.setAttribute('issue-term', pathname)
-      utterances.setAttribute('theme', 'preferred-color-scheme')
-      utterances.setAttribute('crossOrigin', 'anonymous')
-      utterances.setAttribute('async', 'true')
-      comment.appendChild(utterances)
-    }
-  })
-</script>
-
-<div class="comment" id="comment" />
+      
       
       <div id="gitalk-container"></div>
     </div>
@@ -174,6 +158,22 @@
         crossorigin="anonymous"
         async>
 </script>
-    
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const comment = document.querySelector('#comment')
+    if (comment) {
+      const utterances = document.createElement('script')
+      utterances.setAttribute('src', 'https://utteranc.es/client.js')
+      utterances.setAttribute('repo', Spphire/RM-labeling-tool)
+      utterances.setAttribute('issue-term', pathname)
+      utterances.setAttribute('theme', 'preferred-color-scheme')
+      utterances.setAttribute('crossOrigin', 'anonymous')
+      utterances.setAttribute('async', 'true')
+      comment.appendChild(utterances)
+    }
+  })
+</script>
+
+<div class="comment" id="comment" />
   </body>
 </html>
