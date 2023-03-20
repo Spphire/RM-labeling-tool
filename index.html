@@ -148,13 +148,30 @@
 
       gitalk.render('gitalk-container')
     </script>
-    -->
+    
     <script src="https://utteranc.es/client.js"
         repo="[Spphire/RM-labeling-tool]"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
+</script>-->
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const comment = document.querySelector('#comment')
+    if (comment) {
+      const utterances = document.createElement('script')
+      utterances.setAttribute('src', 'https://utteranc.es/client.js')
+      utterances.setAttribute('repo', Spphire/RM-labeling-tool)
+      utterances.setAttribute('issue-term', pathname)
+      utterances.setAttribute('theme', 'preferred-color-scheme')
+      utterances.setAttribute('crossOrigin', 'anonymous')
+      utterances.setAttribute('async', 'true')
+      comment.appendChild(utterances)
+    }
+  })
 </script>
+
+<div class="comment" id="comment" />
   </body>
 </html>
